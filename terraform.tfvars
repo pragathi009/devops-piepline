@@ -1,16 +1,16 @@
 subscription_id = "31253df5-e027-43d8-8e72-5edcfdc0945f"
 
-resource_group_name = "pragati123"
+resource_group_name = "tfpragathi-demo-rg023"
 
 location = "Central India"
 
-vnet_name = "pragati-vnet"
+vnet_name = "tfpraga-vnet"
 
 subnet_name = "default"
 
-public_ip_name = "i-public-ip"
+public_ip_name = "khushi-public-ip"
 
-nic_name = "pragathi-nic"
+nic_name = "khushi-nic"
 
 vm_name = "khushi-vm"
 
@@ -20,4 +20,4 @@ admin_username = "azureuser"
 
 admin_password = "Password@123456!"
 
-acr_name = "pragatiacr07032026demo"
+acr_name = "tfppacr07032026demo"
