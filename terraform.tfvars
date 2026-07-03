@@ -1,16 +1,23 @@
-terraform {
-  required_version = ">=1.6.0"
+subscription_id = "31253df5-e027-43d8-8e72-5edcfdc0945f"
 
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "~>4.0"
-    }
-  }
-}
+resource_group_name = "khushi-demo-rg023"
 
-provider "azurerm" {
-  features {}
+location = "Central India"
 
-  subscription_id = var.subscription_id
-}
+vnet_name = "khushi-vnet"
+
+subnet_name = "default"
+
+public_ip_name = "khushi-public-ip"
+
+nic_name = "khushi-nic"
+
+vm_name = "khushi-vm"
+
+vm_size = "Standard_B2s"
+
+admin_username = "azureuser"
+
+admin_password = "Password@123456!"
+
+acr_name = "khushiacr07032026demo"
