@@ -1,23 +1,16 @@
-subscription_id = "31253df5-e027-43d8-8e72-5edcfdc0945f"
+terraform {
+  required_version = ">=1.6.0"
 
-resource_group_name ="rg-pragathi"
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~>4.0"
+    }
+  }
+}
 
-location = "Central India"
+provider "azurerm" {
+  features {}
 
-vnet_name = "pragathi-vnet"
-
-subnet_name = "default"
-
-public_ip_name = "pragathi-public-ip"
-
-nic_name = "pragathi-nic"
-
-vm_name = "pragathi-vm"
-
-vm_size = "Standard_B2s"
-
-admin_username = "azureuser"
-
-admin_password = "Password@123456!"
-
-acr_name = "pragathiacr07032026demo"
+  subscription_id = var.subscription_id
+}
