@@ -1,14 +1,14 @@
 subscription_id = "31253df5-e027-43d8-8e72-5edcfdc0945f"
 
-resource_group_name = "pragathi12"
+resource_group_name = "pragati123"
 
 location = "Central India"
 
-vnet_name = "pragathi-vnet"
+vnet_name = "pragati-vnet"
 
 subnet_name = "default"
 
-public_ip_name = "pragathi-public-ip"
+public_ip_name = "i-public-ip"
 
 nic_name = "pragathi-nic"
 
@@ -20,4 +20,4 @@ admin_username = "azureuser"
 
 admin_password = "Password@123456!"
 
-acr_name = "pragathiacr07032026demo"
+acr_name = "pragatiacr07032026demo"
