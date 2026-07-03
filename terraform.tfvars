@@ -1,23 +1,19 @@
-subscription_id = "31253df5-e027-43d8-8e72-5edcfdc0945f"
+subscription_id     = "31253df5-e027-43d8-8e72-5edcfdc0945f"
 
-resource_group_name = "pragati123"
+resource_group_name = "pragati-tf-rg-070326"
 
-location = "Central India"
+location            = "Central India"
 
-vnet_name = "pragati-vnet"
+vnet_name           = "pragati-vnet-070326"
 
-subnet_name = "default"
+subnet_name         = "default"
 
-public_ip_name = "pragati-public-ip"
+nic_name            = "pragathi-nic-070326"
 
-nic_name = "pragathi-nic"
+vm_name             = "khushi-vm-070326"
 
-vm_name = "khushi-vm"
+vm_size             = "Standard_B2s"
 
-vm_size = "Standard_B2s"
+admin_username      = "azureuser"
 
-admin_username = "azureuser"
-
-admin_password = "Password@123456!"
-
-acr_name = "pragatiacr07032026demo"
+admin_password      = "Password@123456!"
