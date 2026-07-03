@@ -7,7 +7,7 @@ pool:
 
 variables:
   terraformVersion: '1.9.8'
-  serviceConnection: 'connection'
+  serviceConnection: 'connect'
 
 steps:
 
